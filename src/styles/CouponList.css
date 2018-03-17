@@ -1,0 +1,68 @@
+.couponList{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.couponList__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.couponList__top div{
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.viewBtn{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.viewBtn:hover{
+    background-color: gray;
+}
+
+.couponList__lists-square{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.couponList__lists-square li{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.couponList__lists-list{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.couponList__lists-list li{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
