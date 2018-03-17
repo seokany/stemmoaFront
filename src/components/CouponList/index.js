@@ -3,6 +3,7 @@ import FaAlignJustify from 'react-icons/lib/fa/align-justify';
 import FaTh from 'react-icons/lib/fa/th';
 
 import '../../styles/CouponList.css';
+import CouponDetail from '../CouponDetail';
 
 class CouponList extends Component {
 
@@ -10,7 +11,8 @@ class CouponList extends Component {
         super(props)
 
         this.state = {
-            viewStatus: "square"
+            viewStatus: "square",
+            showDetail: false
         };
     }
 
@@ -27,7 +29,7 @@ class CouponList extends Component {
     }
     
     render() {
-        const { viewStatus } = this.state;
+        const { viewStatus, showDetail } = this.state;
         console.log(viewStatus);
         return (
             <div className="couponList">
@@ -50,6 +52,11 @@ class CouponList extends Component {
                     <li>coupon9</li>
                     <li>coupon10</li>
                 </ul>
+                { showDetail ? (
+                    <div></div>
+                ) :(
+                    <CouponDetail />)
+                }
             </div>
         );
     }

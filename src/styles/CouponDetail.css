@@ -1,0 +1,10 @@
+.couponDetail{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -200px;
+    width: 700px;
+    height: 400px;
+    border: 1px solid gray; 
+}
